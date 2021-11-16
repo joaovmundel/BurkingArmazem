@@ -1,0 +1,72 @@
+#
+#BURKINGARMAZEM - V1.5
+#
+#Config:
+#    Crops: Aqui vai a lista de plantacoes q vc quer q vao pro armazem
+#     Cactus: preco unitario
+#       Nome: nome do item no armazem
+#       Slot: slot do item no menu
+#       Price: preco unitario
+#       Lore: lore do item
+#    Mundos: Mundos em que o armazem vai funcionar
+#      - 'world'
+#
+# Crops disponiveis: CACTUS, MELON, PUMPKIN, NETHER_STALK, SUGAR_CANE, WHEAT      
+#
+Crops:
+  CACTUS:
+    Nome: '&aCacto'
+    Slot: 10
+    Price: 5
+    Lore:
+      - '&7Voce tem &a@qtd &7Cactos'
+      - '&7Habilitado: @state'
+      - '&7Clique direito para pegar'
+      - '&7Clique esquerdo para vender'
+  MELON:
+    Nome: '&aMELANCIA'
+    Slot: 11
+    Price: 5
+    Lore:
+      - '&7Voce tem &a@qtd &7Melancias'
+      - '&7Habilitado: @state'
+      - '&7Clique direito para pegar'
+      - '&7Clique esquerdo para vender'
+  PUMPKIN:
+    Nome: '&aABOBORA'
+    Slot: 12
+    Price: 5
+    Lore:
+      - '&7Voce tem &a@qtd &7Aboboras'
+      - '&7Habilitado: @state'
+      - '&7Clique direito para pegar'
+      - '&7Clique esquerdo para vender'
+  NETHER_STALK:
+    Nome: '&aFUNGO'
+    Slot: 14
+    Price: 5
+    Lore:
+      - '&7Voce tem &a@qtd &7Fungos'
+      - '&7Habilitado: @state'
+      - '&7Clique direito para pegar'
+      - '&7Clique esquerdo para vender'
+  SUGAR_CANE:
+    Nome: '&aCANA'
+    Slot: 15
+    Price: 5
+    Lore:
+      - '&7Voce tem &a@qtd &7Canas'
+      - '&7Habilitado: @state'
+      - '&7Clique direito para pegar'
+      - '&7Clique esquerdo para vender'
+  WHEAT:
+    Nome: '&aTRIGO'
+    Slot: 16
+    Price: 5
+    Lore:
+      - '&7Voce tem &a@qtd &7Trigos'
+      - '&7Habilitado: @state'
+      - '&7Clique direito para pegar'
+      - '&7Clique esquerdo para vender'
+Mundos:
+  - 'world'
